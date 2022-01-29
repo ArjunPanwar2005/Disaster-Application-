@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.FAQFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.1 What should you do in case of Cyclone?"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You should cover drains holes to prevent backflow of sewage and clean debris from premises. Drink boiled water at regular interval of time."
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/poppins"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:padding="10dp"
+                android:textColor="@android:color/black"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.2 What should you do in case of Earthquake?"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/poppins"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Always stand against a wall near the center of the building, or crawl under heavy furniture (a desk or table). Stay away from windows and outside doors.Don't use elevators, matches, candles.
+"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/poppins"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:padding="10dp"
+                android:textColor="@android:color/black"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/darker_gray"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.3 What should you do in case of floods?"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seal the walls in your basement with waterproofing compounds to avoid seepage.Take special precautions to safeguard electrical, natural gas or propane heating equipment."
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/poppins"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:padding="10dp"
+                android:textColor="@android:color/black"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/darker_gray"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.4 What should you do in case of Volcano?"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="@font/poppins"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Limit your time outdoors and use a dust mask or cloth mask.Avoid areas downstream of the eruption.Protect yourself from falling ash."
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/poppins"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:padding="10dp"
+                android:textColor="@android:color/black"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/darker_gray"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q.5 What should you do in case of snow storm"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Build a fire for heat and to attract attention.Drive slowly to avoid skidding, and note that it takes longer to decelerate in icy road conditions.Keep your body warm to prevent Hypothermia condition in body"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/poppins"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:padding="10dp"
+                android:textColor="@android:color/black"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/darker_gray"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/poppins"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:padding="10dp"
+                android:textColor="@android:color/black"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/darker_gray"/>
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>
